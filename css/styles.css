@@ -1,5 +1,6 @@
 body {
   padding-top: 150px;
+  background-image: url("../img/Kyoto.jpg");
 }
 
 .jumbo {
@@ -12,4 +13,5 @@ body {
 
 .row {
   padding-left: 100px;
+  background-color: white;
 }

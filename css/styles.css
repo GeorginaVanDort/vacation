@@ -1,6 +1,11 @@
 body {
-  padding-top: 100px;
+  padding-top: 150px;
 }
-.jumbo{
+
+.jumbo {
   text-align: center;
+}
+
+#mycarousel {
+  padding: 200px;
 }

@@ -5,6 +5,7 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="css/css/bootstrap.css" rel="stylesheet" type="text/css">
   </head>
+<!--Nav Start-->
   <body>
     <div>
       <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -25,26 +26,39 @@
       </div>
     </nav>
     </div>
+<!--Nav End-->
 <!-- start carousel -->
     <div id="mycarousel" class="carousel slide jumbotron">
       <div class="container">
+
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#mycarousel" data-slide-to="0"></li>
+          <li data-target="#mycarousel" data-slide-to="1"></li>
+          <li data-target="#mycarousel" data-slide-to="2"></li>
+        </ol>
+
         <div class="carousel-inner">
+
           <div class="item active">
             <h1 class="jumbo">Welcome to Japan</h1>
           </div>
+
           <div class="item">
+            <h1 class="jumbo">Places to Visit</h1>
           </div>
+
           <div class="item">
+            <h1 class="jumbo">Food to Eat</h1>
           </div>
         </div>
       </div>
-      <a class="left carousel-control" href="#mycarousel" data-slide="prev"><span class="icon-prev"></span>
-    </a>
-    <a class="right carousel-control" href="#mycarousel" data-slide="next"><span class="icon-next"></span>
-  </a>
+      <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev"><span class="icon-prev"></span>
+      </a>
+      <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next"><span class="icon-next"></span>
+      </a>
     </div>
 <!--end carousel-->
     <script src="http://code.jquery.com/jquery.js"></script>
-    <script type="css/js/bootstrap.min.js"></script>
+    <script src="css/js/bootstrap.min.js"></script>
   </body>
 </html>

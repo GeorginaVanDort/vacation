@@ -9,3 +9,7 @@ body {
 #mycarousel {
   padding: 200px;
 }
+
+.row {
+  padding-left: 100px;
+}
